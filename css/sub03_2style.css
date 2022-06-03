@@ -32,7 +32,8 @@ body{font-family: 'GowunBatang-Bold'; font-size: 20px; line-height: 40px;}
 
 /*banner*/
 
-#banner{width: 100%; height: 510px; background: gray;}
+#banner{width: 100%; height: 510px; background: url(../images/banner.jpg) no-repeat center top; position: relative;}
+#banner>span{width: 110.7px; height: 40px; color: #f0e4cf; font-size: 45px; position: absolute; top: 50%; left: 50%;  margin: -20px 0 0 -55.35px; font-family: 'GowunBatang-Regular'; text-shadow: 10px 10px 10px #583C31;}
 
 
 /*contents*/
@@ -40,8 +41,7 @@ body{font-family: 'GowunBatang-Bold'; font-size: 20px; line-height: 40px;}
 
 .contents_inner{width: 1320px; height: 1200px; margin: 0 auto; position: relative;}
 
-/*contents_eventmenu*/
-.eventmenu{width: 321.22px; height: 100px; position: absolute; top: 125px; left: 50%; margin-left: -160.61px;}
+.eventmenu{width: 100%; height: 100px; position: absolute; top: 125px; left: 50%; margin-left: -160.61px;}
 .eventmenu li{float: left;}
 .eventmenu li:first-child a{border-right: 2px solid #583c31b4; padding-right: 30px;}
 .eventmenu li:nth-child(2) a{padding-left: 30px;}
@@ -66,7 +66,8 @@ table td{border-bottom: 1px solid #583C31; font-size: 16px; padding: 4px;}
 .first{padding-left: 25px;}
 .middle{padding-left: 72px;}
 
-table tr a:hover{color: #F0C599; background-color: #583c3167;}
+table tr:hover {background-color: #583c3167;}
+table tr:hover a{color: #F0C599;}
 
 
 
@@ -85,6 +86,8 @@ table tr a:hover{color: #F0C599; background-color: #583c3167;}
 
 
 
+/*footer s*/
+
 #footer{width: 100%; height: 330px; background-color: #583C31;}
 .footer_inner{width: 1320px; height: 100%; margin: 0 auto;}
 
@@ -102,6 +105,8 @@ table tr a:hover{color: #F0C599; background-color: #583c3167;}
 .list2 li:nth-child(1) a{margin-top: 4px; margin-right: 2px;}
 .list2 li:nth-child(2) a{margin-top: 1px;}
 .list2 li:nth-child(3) a{margin-left: 30px; width: 12px;}
+
+.list2 li:hover img{opacity: 0.5;}
 
 
 .list3{float: left;  margin-top: 25px; font-size: 14px; color: #F0E4CF;}
